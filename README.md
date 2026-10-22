@@ -4,7 +4,10 @@ Un modèle de langue de type GPT construit **entièrement de zéro** : tokenizer
 
 Tout a été entraîné avec des GPU gratuits (Google Colab et Kaggle, Tesla T4).
 
-**Modèle sur Hugging Face :** [Ezeck01/petit-gpt-fr-46m](https://huggingface.co/Ezeck01/petit-gpt-fr-46m)
+**Modèles sur Hugging Face :**
+- [Ezeck01/petit-gpt-fr-46m](https://huggingface.co/Ezeck01/petit-gpt-fr-46m) : le modèle pré-entraîné
+- [Ezeck01/petit-gpt-fr-46m-instruct](https://huggingface.co/Ezeck01/petit-gpt-fr-46m-instruct) : la version SFT (dédoublonnée, 2 époques)
+- [Ezeck01/qwen2.5-0.5b-calculatrice-grpo](https://huggingface.co/Ezeck01/qwen2.5-0.5b-calculatrice-grpo) : l'adaptateur LoRA entraîné par GRPO
 
 ---
 
